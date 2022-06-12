@@ -20,7 +20,7 @@ var obj=document.getElementById('obj');
       play.style.animation='none';
       play.style.bottom=playPostio+'px'
       
-     play.src='/img_game/matio_game_over.png';
+     play.src='img_game/matio_game_over.png';
      play.style.width='80px';
      play.style.height='80px';
      play.style.margin='5px';
