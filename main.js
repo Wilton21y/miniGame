@@ -18,7 +18,7 @@ var obj=document.getElementById('obj');
       obj.style.left=objPosition+'px';
       
       play.style.animation='none';
-      play.style.bottom=playPostio+'px'
+      play.style.bottom=playPostio+'px';
       
      play.src='Img_game/matio_game_over.png';
      play.style.width='80px';
