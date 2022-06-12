@@ -29,3 +29,4 @@ var obj=document.getElementById('obj');
     }
   });
 window.addEventListener('touchstart', pular);
+window.addEventListener('keydown', pular);
