@@ -1,0 +1,72 @@
+body {
+  background: black;
+  color:  greenyellow;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.cena {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border: 2px solid black;
+  background: linear-gradient(#0873FF, #fff) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.P {
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.P.jumpUp {
+  animation: pulo .5s linear;
+}
+
+.obj {
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  bottom: 0px;
+  left: -120px;
+  animation: Mpilar .9s infinite linear;
+}
+
+@keyframes Mpilar {
+  from {
+    left: 920px
+  }
+}
+
+@keyframes pulo {
+  0%{
+    bottom: 0px;
+  }
+
+  25% {
+    bottom: 180px;
+    transform: rotate(-360deg);
+  }
+
+  100% {
+    bottom: 0px
+  }
+}
+
+.painel {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bt {
+  font-size: 30px;
+  width: 100px;
+  height: 80px
+}
